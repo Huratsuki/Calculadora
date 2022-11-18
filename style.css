@@ -1,0 +1,29 @@
+.background {
+    background-color: burlywood;
+    height: 100vh;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: whitesmoke;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+
+#resultado {
+    background-color: white;
+    height: 30px;
+    width: 200px;
+    margin: 5px;
+    text-align: right;
+    padding: 5px;
+}
